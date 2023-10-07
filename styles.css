@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  #videos-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  video {
+    width: 45%;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    resize: vertical;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f64633; /* Peach background color */
+  }
+  
+  /* Rest of your existing CSS styles */
+  
